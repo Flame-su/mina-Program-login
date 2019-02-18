@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+
+<view wx:for="{{listInfo}}">
+{{index}}:{{item.name}} {{item.time}}
+</view>
